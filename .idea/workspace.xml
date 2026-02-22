@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="83b81342-9854-4688-9b19-eb8f4c9bfebc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Exercise3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lesson19.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lesson19.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercise2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Execise4.py" beforeDir="false" afterPath="$PROJECT_DIR$/Execise4.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +34,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/Ntope1983/Lesson19.git&quot;,
-    &quot;accountId&quot;: &quot;f26de1ef-c205-43f5-93f0-1333a4b6a08f&quot;
+    &quot;accountId&quot;: &quot;f1a31f41-b9fa-4cea-bced-8247155df8dc&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -44,6 +48,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.Execise4.executor": "Run",
     "Python.Exercise1.executor": "Run",
     "Python.Exercise2.executor": "Run",
     "Python.Exercise3.executor": "Run",
@@ -69,5 +74,16 @@
       <updated>1771499249569</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Execise4.py</url>
+          <line>90</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

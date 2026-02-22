@@ -70,24 +70,24 @@ class BinarySearchTree(Tree):
 
     def inorder(self):
         result = []
-
-        def inorder_subtree(root):
-            if root.left is not None:
-                inorder_subtree(root.left)
-            elif root.left is None:
-                result.append(root)
-                if root.right is not None:
-                    inorder_subtree(root.right)
-
-        if self.root is not None:
-            inorder_subtree(self.root)
+        def traverse(node):
+            if node is None:
+                return
+            traverse(node.left)
+            result.append(node.data)
+            traverse(node.right)
+        traverse(self.root)
         return result
 
 
 x = BinarySearchTree()
+x = BinarySearchTree()
+x.insert(50)
+x.insert(30)
+x.insert(70)
 x.insert(20)
-x.insert(5)
-x.insert(2)
 x.insert(40)
-x.insert(60)
-y=x.inorder()
+x.insert(35)
+y = x.inorder()
+for item in y:
+    print(item)
